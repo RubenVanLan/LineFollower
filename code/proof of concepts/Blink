@@ -1,1 +1,28 @@
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
 
+  // Startup sequentie knipperen LED_BUILTIN
+  for (int i = 0; i < 5; i++) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(500);
+  }
+  delay(1000); // Pauze na startup sequentie
+}
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+/*
+ * pin 13 defineren werky ook:
+ 
+  const int ledPin = 13;  // Pin waar de LED is
+
+  void setup() {
+    pinMode(ledPin, OUTPUT);
+
+ */
