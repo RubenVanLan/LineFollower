@@ -1,12 +1,15 @@
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
 
-  // Startup sequentie knipperen LED_BUILTIN
+#define INTERNAL_LED 2
+
+void setup() {
+  pinMode(INTERNAL_LED, OUTPUT);
+
+  // Startup sequentie knipperen ingebouwde LED
   for (int i = 0; i < 5; i++) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    digitalWrite(INTERNAL_LED, HIGH);
+    delay(250);
+    digitalWrite(INTERNAL_LED, LOW);
+    delay(250);
   }
   delay(1000); // Pauze na startup sequentie
 }
@@ -14,15 +17,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  digitalWrite(INTERNAL_LED, HIGH);
+    delay(500);
+    digitalWrite(INTERNAL_LED, LOW);
+    delay(500);
 }
 
-/*
- * pin 13 defineren werky ook:
- 
-  const int ledPin = 13;  // Pin waar de LED is
 
-  void setup() {
-    pinMode(ledPin, OUTPUT);
-
- */
