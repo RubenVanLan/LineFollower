@@ -7,21 +7,21 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: esp32 wroom 38 pin
 
-motors: 
+motors: n20 1:50 DC tandwielmotor (200RPM)
 
-h-bridge:
+h-bridge: drv3388
 
-sensors:
+sensors: QTR-8A (Pololu)
 
-batteries:
+batteries:18650 3.7V
 
-wireless communication:
+wireless communication: Blue Tooth
 
-distance sensor - motors:
+distance sensor - motors: 98 mm
 
-weight:
+weight: 
 
-speed: 
+speed: 0,77 m/s
 
