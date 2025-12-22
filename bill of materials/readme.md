@@ -19,4 +19,3 @@
 |14|ESP32 Development Board|1-10PCS/ESP32 Development Board Type-C CP2102 WIFI Bluetooth Module Dual Core Draadloze Module ESP-WROOM-32 Uitbreidingskaart 38Pin|nieuw|4.82|1|4.82|
 |15|dupont draadjes|Dupont Lijn 10/20/30/40Cm 40pin Mannelijk Naar Mannelijk + Mannelijk Naar Vrouwelijk En Vrouwelijk Naar Vrouwelijk Jumper Draad Dupont Kabel Voor Arduino Diy Kit|nieuw|1.59|1|1.59|
 |16|3D print motorhouder voor wiel|motorhouder voor wiel|school||2||
-|17|Volt regulator|LF33CV Volt regulator|nieuw|0.82|1|0.82|
